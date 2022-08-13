@@ -6,7 +6,7 @@ import axios from 'axios'
 export class DataSheet extends Component {
 
     state = {
-        gpa: 0,
+        gpa: 0.00,
         courses: [],
         student: {},
         grades: []
@@ -177,7 +177,8 @@ export class DataSheet extends Component {
                     </div>
                     <div>
                         <strong>
-                            GPA: {this.state.gpa.toFixed(2)}
+                            GPA: { (this.state.gpa !== undefined ) && this.state.gpa.toFixed(2)}
+
                         </strong>
                         
                     </div>

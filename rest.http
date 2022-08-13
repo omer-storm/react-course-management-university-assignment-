@@ -4,7 +4,7 @@ GET http://localhost:5000/api/courses HTTP/1.1
 GET http://localhost:5000/api/courses/1112101 HTTP/1.1
 
 ###
-GET http://localhost:5000/api/students/1112101 HTTP/1.1
+GET http://localhost:5000/api/student/1112101 HTTP/1.1
 
 ###
 GET http://localhost:5000/api/registrations/1112101 HTTP/1.1
